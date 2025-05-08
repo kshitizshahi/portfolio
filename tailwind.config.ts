@@ -26,6 +26,9 @@ export default {
         },
         custom: "var(--color-border-custom)",
       },
+      fontFamily: {
+        sans: ["sans-serif", "var(--font-inter)"],
+      },
     },
   },
 

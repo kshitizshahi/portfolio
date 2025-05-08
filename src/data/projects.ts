@@ -57,7 +57,7 @@ export const featuredProjects = [
     isDeployed: true,
     imageUrl: "/portfolio.png",
     projectUrl: "/",
-    githubUrl: "/",
+    githubUrl: "https://github.com/kshitizshahi/portfolio",
   },
 ];
 
@@ -120,7 +120,7 @@ export const projects = [
     isDeployed: true,
     imageUrl: "/portfolio.png",
     projectUrl: "/",
-    githubUrl: "/",
+    githubUrl: "https://github.com/kshitizshahi/portfolio",
   },
   {
     id: 4,
