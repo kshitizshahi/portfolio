@@ -3,7 +3,7 @@ export const featuredProjects = [
     id: 1,
     title: "Citadel Clothing E-commerce",
     description:
-      "A full-stack e-commerce platform with authentication, payment integration, role-based access, email notifications, and responsive dark/light mode support.",
+      "A full-stack e-commerce platform with authentication, payment integration, role-based access, email notifications, API rate limiting, toast messages, and responsive dark/light mode support.",
     technologies: [
       "React",
       "Node.js",
@@ -23,15 +23,15 @@ export const featuredProjects = [
     id: 2,
     title: "Next.js Blog Site",
     description:
-      "A responsive blog platform built with Next.js and TypeScript that generates static pages from markdown files, supports dark/light mode, and features a clean UI using Shadcn.",
+      "A responsive blog platform built with Next.js and TypeScript that generates static pages from markdown files, supports dark/light mode, and includes search by title and tags via Next.js API routes.",
     technologies: [
       "Next.js",
       "TypeScript",
       "Tailwind CSS",
-      "Shadcn UI",
-      "Markdown",
       "Remark",
+      "Markdown",
       "Gray-matter",
+      "Shadcn UI",
     ],
     isDeployed: true,
     imageUrl: "/blog-site.png",
@@ -42,14 +42,13 @@ export const featuredProjects = [
     id: 3,
     title: "Portfolio Website",
     description:
-      "A personal portfolio built with Next.js and TypeScript featuring projects, certifications, & a contact form with validation, spam protection, dark/light mode, and database integration.",
+      "A personal portfolio built with Next.js and TypeScript featuring projects, certifications, and a contact form with validation, spam protection, dark/light mode, and database integration.",
     technologies: [
       "Next.js",
       "TypeScript",
       "Tailwind CSS",
-      "PostgreSQL",
       "Prisma",
-      "Hookform",
+      "PostgreSQL",
       "Zod",
       "Upstash",
       "Resend",
@@ -66,7 +65,7 @@ export const projects = [
     id: 1,
     title: "Citadel Clothing E-commerce",
     description:
-      "A full-stack e-commerce platform with authentication, payment integration, role-based access, email notifications, and responsive dark/light mode support.",
+      "A full-stack e-commerce platform with authentication, payment integration, role-based access, email notifications, API rate limiting, toast messages, and responsive dark/light mode support.",
     technologies: [
       "React",
       "Node.js",
@@ -86,15 +85,15 @@ export const projects = [
     id: 2,
     title: "Next.js Blog Site",
     description:
-      "A responsive blog platform built with Next.js and TypeScript that generates static pages from markdown files, supports dark/light mode, and features a clean UI using Shadcn.",
+      "A responsive blog platform built with Next.js and TypeScript that generates static pages from markdown files, supports dark/light mode, and includes search by title and tags via Next.js API routes.",
     technologies: [
       "Next.js",
       "TypeScript",
       "Tailwind CSS",
-      "Shadcn UI",
-      "Markdown",
       "Remark",
+      "Markdown",
       "Gray-matter",
+      "Shadcn UI",
     ],
     isDeployed: true,
     imageUrl: "/blog-site.png",
@@ -105,14 +104,13 @@ export const projects = [
     id: 3,
     title: "Portfolio Website",
     description:
-      "A personal portfolio built with Next.js and TypeScript featuring projects, certifications, & a contact form with validation, spam protection, dark/light mode, and database integration.",
+      "A personal portfolio built with Next.js and TypeScript featuring projects, certifications, and a contact form with validation, spam protection, dark/light mode, and database integration.",
     technologies: [
       "Next.js",
       "TypeScript",
       "Tailwind CSS",
-      "PostgreSQL",
       "Prisma",
-      "Hookform",
+      "PostgreSQL",
       "Zod",
       "Upstash",
       "Resend",
@@ -146,7 +144,7 @@ export const projects = [
     id: 5,
     title: "Staff-Hire System",
     description:
-      "A GUI-based staff hiring system built with Java Swing and OOP, supporting vacancy creation, staff appointments, terminations, & data display using custom classes & dynamic data handling.",
+      "A GUI-based staff hiring system built with Java Swing and OOP, supporting vacancy creation, staff appointments, terminations, and data display using custom classes and dynamic data handling.",
     technologies: ["Java", "Swing", "Object-Oriented Programming", "Java AWT"],
     isDeployed: false,
     imageUrl: "/java-staff-appointment.png",
