@@ -13,7 +13,7 @@ export default function Footer(): JSX.Element {
           </div>
 
           <div className="flex flex-wrap justify-center md:justify-end space-x-4">
-            <a href="/home" className="hover:text-primary-dark mb-2">
+            <a href="/" className="hover:text-primary-dark mb-2">
               Home
             </a>
             <a href="/about" className="hover:text-primary-dark mb-2">
