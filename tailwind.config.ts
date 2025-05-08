@@ -25,11 +25,9 @@ export default {
           btn: "var(--color-text-btn)",
         },
         custom: "var(--color-border-custom)",
-        fontFamily: {
-          sans: ["var(--font-inter)", "sans-serif"],
-        },
       },
     },
   },
+
   plugins: [],
 };
