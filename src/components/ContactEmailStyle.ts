@@ -181,6 +181,7 @@ export function ContactEmailStyle({ name, email, subject, message }: Contact) {
               </div>
               <div class="timestamp">
                 Received on ${new Date().toLocaleString("en-US", {
+                  timeZone: "America/New_York", // US Eastern Time
                   weekday: "long",
                   year: "numeric",
                   month: "long",
