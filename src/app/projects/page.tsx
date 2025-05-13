@@ -9,7 +9,7 @@ export default function ProjectsPage() {
         Here are some of the projects I've worked on. Each project demonstrates
         different skills and technologies that I've mastered over the years.
       </p>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
         {projects.map((project) => (
           <ProjectCard key={project.id} {...project} />
         ))}
