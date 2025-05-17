@@ -51,7 +51,7 @@ export default function AboutPage() {
               rel="noopener noreferrer"
               className="btn border border-primary text-primary hover:bg-primary/10"
             >
-              Download Resume
+              View Resume
             </a>
           </div>
         </div>
