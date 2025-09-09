@@ -28,13 +28,13 @@ export const certificates = [
       "https://drive.google.com/file/d/1UHqId0P3uVudF0NAZdF4DibNzTb52buP/view",
     inProgress: false,
   },
-  {
-    id: 4,
-    title: "Java Programming I MOOC",
-    issuer: "University of Helsinki",
-    date: "Expected: June 2025",
-    imageUrl: "/certificate-progress.png",
-    credentialUrl: "#",
-    inProgress: true,
-  },
+  // {
+  //   id: 4,
+  //   title: "Java Programming I MOOC",
+  //   issuer: "University of Helsinki",
+  //   date: "Expected: June 2025",
+  //   imageUrl: "/certificate-progress.png",
+  //   credentialUrl: "#",
+  //   inProgress: true,
+  // },
 ];
